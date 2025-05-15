@@ -19,8 +19,8 @@ username_input = driver.find_element(By.NAME, "uname")
 password_input = driver.find_element(By.NAME, "pword")
 
 # Isi form
-username_input.send_keys("71220953")  # Ganti dengan NIM kamu
-password_input.send_keys("PASSWORD_KAMU")  # Ganti dengan password kamu
+username_input.send_keys("ISI NIM")  # Ganti dengan NIM kamu
+password_input.send_keys("PASSWORD_KAMU_YG_SALAH")  # Ganti dengan password kamu
 
 # Submit form
 password_input.send_keys(Keys.RETURN)
